@@ -1,0 +1,38 @@
+:root {
+  --white: #FFFFFF;
+  --gray: #7F7F7F;
+  --backgroun-card: #000000;
+  --background-section: rgba(0, 0, 0, 0.4);
+  --background-input: rgba(0, 0, 0, 0.8);
+
+  --red: #FF0000;
+  --red-dark: rgba(199, 16, 16, 0.2);
+  --purple-dark: #31005C;
+  --purple: #8800FF;
+  --green: #0E9B17;
+  --green-dark: rgba(14, 155, 23, 0.5); 
+  --blue: #2B6CCA;
+  --blue-dark: rgba(43, 108, 202, 0.5);
+  --yellow: #cb7f15;
+  --yellow-dark: rgba(203, 127, 21, 0.5);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--white);
+  background: red;
+  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
