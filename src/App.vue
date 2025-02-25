@@ -1,3 +1,12 @@
 <template>
-  <h1>Titre 1</h1>
+  <main>
+    <NavBar />
+    <section>
+      <h2>test</h2>
+    </section>
+  </main>
 </template>
+
+<script setup>
+import NavBar from './components/navbar/NavBar.vue'
+</script>

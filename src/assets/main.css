@@ -1,18 +1,17 @@
 @import "./base.css";
 
 
-/* main {
+main {
+    width: 100%; /* Largeur de la grille avec marge extérieure */
     display: grid;
-    grid-template-columns: repeat(14, 125px);
+    grid-template-columns: repeat(13, 1fr);
     gap: 10px;
+    background-color: rgba(255, 0, 0, 0.06);
 }
 
 section {
-    display: grid;
-    grid-template-columns: repeat(13, 125px);
-    gap: 10px;
-    grid-template-rows: repeat(2, 50%);
-} */
+    grid-column: 2 / 14;
+}
 
 @media (min-width: 1024px) {
     body {
